@@ -56,13 +56,6 @@ gcc calculator.c -o calculator
 ```bash
 calculator.exe
 ```
-
-**Linux/macOS:**
-
-```bash
-./calculator
-```
-
 ## 💻 Example
 
 ```text
@@ -130,6 +123,3 @@ This project was created as a **beginner C programming project** to practice pro
 
 Computer Engineering and IT Student
 
----
-
-⭐ If you find this project useful, feel free to star the repository!
