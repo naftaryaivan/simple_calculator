@@ -8,7 +8,7 @@ A simple console-based calculator developed in **C** and **Java** to practice ba
 * Addition `+`
 * Subtraction `-`
 * Multiplication `*`
-* Division '/'
+* Division `/`
 * User input validation
 * Repeat calculations
 * Invalid operation handling
