@@ -65,7 +65,7 @@ This project was created to improve my understanding of **C and Java programming
 
 ## Author
 
-**Aivan Naftary**
+Aivan Naftary
 Computer Engineering and IT Student — University of Dar es Salaam (UDSM)
 
 
