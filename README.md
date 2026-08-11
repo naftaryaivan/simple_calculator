@@ -1,125 +1,71 @@
 # simple_calculator
-# 🧮 Simple C Calculator
+# 🧮 Simple Calculator
 
-A simple command-line calculator written in **C programming language**.
-This project performs basic arithmetic operations and includes input validation to make sure the user enters valid numbers.
+A simple console-based calculator developed in **C** and **Java** to practice basic programming concepts.
 
-## 📌 Features
+## Features
 
-* ➕ Addition
-* ➖ Subtraction
-* ✖️ Multiplication
-* ➗ Division
-* 🔢 Accepts decimal numbers
-* ⚠️ Detects invalid number input
-* 🔄 Allows the user to perform multiple calculations
-* 🚫 Prevents division by zero
-* ❌ Allows the user to close the calculator
+* Addition `+`
+* Subtraction `-`
+* Multiplication `*`
+* Division '/'
+* User input validation
+* Repeat calculations
+* Invalid operation handling
 
-## 🛠️ Technologies Used
+## C Version
 
-* **C Programming Language**
-* **GCC Compiler**
-* **Dev-C++ / Visual Studio Code**
+The C program uses a `getnumber()` function to validate numerical input and prevent invalid entries.
 
-## 📂 Project Structure
+Main concepts:
 
-```text
-Simple-Calculator/
-│
-├── calculator.c
-└── README.md
-```
+* Functions
+* `scanf()` and `printf()`
+* `switch` statements
+* `while` and `do...while` loops
+* Input validation
+* Arithmetic operations
 
-## ▶️ How to Run
+## Java Version
 
-### Using GCC
+The Java program implements the same calculator using Java methods and `Scanner` for user input.
 
-1. Clone the repository:
+Main concepts:
 
-```bash
-git clone https://github.com/YOUR-USERNAME/Simple-Calculator.git
-```
+* Classes and methods
+* `Scanner`
+* `switch`
+* Loops
+* Input validation
+* Arithmetic operations
 
-2. Open the project folder.
+## Flowchart
 
-3. Compile the program:
+A flowchart showing the program's logic is included in the **Diagram** folder.
+
+## How to Run
+
+### C
 
 ```bash
 gcc calculator.c -o calculator
+./calculator
 ```
 
-4. Run the program:
-
-**Windows:**
+### Java
 
 ```bash
-calculator.exe
-```
-## 💻 Example
-
-```text
-Enter first number: 25.5
-Enter operation: +
-Enter second number: 4
-
-Result = 29.50
-
-Press n or N for next calculation or any other key to close: n
-
-Enter first number: 10
-Enter operation: /
-Enter second number: 2
-
-Result = 5.00
+javac Calculator.java
+java Calculator
 ```
 
-### Invalid Input Example
+## Learning Objective
 
-```text
-Enter first number: hello
-Invalid input! Please enter a number again: 20
+This project was created to improve my understanding of **C and Java programming**, especially functions, methods, loops, input validation, and control statements.
 
-Enter operation: *
-Enter second number: 5
-
-Result = 100.00
-```
-
-### Division by Zero
-
-```text
-Enter first number: 10
-Enter operation: /
-Enter second number: 0
-
-Cannot divide by zero!
-```
-
-## 📚 Concepts Practiced
-
-This project helped me practice several fundamental C programming concepts:
-
-* Variables and data types
-* `printf()` and `scanf()`
-* Format specifiers
-* `if` statements
-* `switch` statements
-* `while` loops
-* `do-while` loops
-* Functions
-* Input validation
-* `getchar()`
-* Arithmetic operators
-* User input handling
-
-## 🎯 Purpose
-
-This project was created as a **beginner C programming project** to practice programming fundamentals and understand how functions, loops, conditions, and user input work together in a real program.
-
-## 👨‍💻 Author
+## Author
 
 **Aivan Naftary**
+Computer Engineering and IT Student — University of Dar es Salaam (UDSM)
 
-Computer Engineering and IT Student
 
